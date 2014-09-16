@@ -1,0 +1,6 @@
+Examples
+========
+
+- Run `fastqc` in a pipeline with:
+
+        $ cat my-file | docker run -i fastqc-sci-app fastqc stdin

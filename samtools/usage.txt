@@ -1,0 +1,6 @@
+Usage
+=====
+
+- Get usage for `samtools` with:
+
+        $ docker run -it samtools-sci-app samtools

@@ -1,0 +1,6 @@
+Examples
+========
+
+- Get help for `bwa` command with:
+
+        $ docker run -it bwa-sci-app man bwa

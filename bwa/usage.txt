@@ -1,0 +1,10 @@
+Usage
+=====
+
+- Get usage for `bwa` with:
+
+        $ docker run -it bwa-sci-app bwa
+
+- Get usage for subcommands with (for example):
+
+        $ docker run -it bwa-sci-app bwa index

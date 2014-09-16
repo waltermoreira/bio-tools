@@ -1,0 +1,16 @@
+FROM waltermoreira/base-sci-app
+
+MAINTAINER TACC
+
+ENV _APP BWA Aligner
+ENV _VERSION ___
+ENV _LICENSE GPLv3
+ENV _AUTHOR ___
+
+ADD examples.txt /docs/bwa/examples.txt
+ADD usage.txt /docs/bwa/usage.txt
+
+ADD bwa /bin/bwa
+
+RUN yum install -y man
+ADD bwa.1 /usr/share/man/man1/bwa.1

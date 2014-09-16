@@ -1,0 +1,6 @@
+Usage
+=====
+
+- Get usage for `fastqc` with:
+
+        $ docker run -it fastqc-sci-app fastqc --help
